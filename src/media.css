@@ -1,0 +1,161 @@
+/* ----------------- Media Qurey ----------------- */
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+
+    .row--35 {
+        margin: 0 25px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .owl-nav {
+        display: none;
+    }
+
+    .inner-1 h1 , .inner-2 .title {
+        font-size: 72px;
+    }
+    
+    .section-title h2.title {
+        font-size: 50px;
+    }
+
+    .footer-left {
+        padding: 120px 80px;
+    }
+
+    .footer-left .inner h2 {
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    .footer-right {
+        padding: 119px 21px 119px 70px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .owl-nav {
+        display: none;
+    }
+
+    .inner-1 h1 , .inner-2 .title {
+        font-size: 60px;
+        margin-bottom: 18px;
+    }
+
+    .inner-2 p {
+        padding: 0 3% 0 0;
+    }
+
+    .footer-left {
+        padding: 60px 70px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+
+    .owl-nav {
+        display: none;
+    }
+
+    .counterup-area .cnt {
+        font-size: 45px;
+        line-height: 56px;
+        margin-bottom: 5px;
+        margin-left: -11px;
+    }
+    
+    .slide1 {
+        background-position: 27% !important;
+    }
+
+    .slide2 {
+        background-position: 65% !important;
+    }
+
+    .inner.text-right {
+        text-align: right !important;
+    }
+
+    .inner-1 h1 , .inner-2 h1{
+        font-size: 36px;
+        line-height: 64px;
+    }
+
+    .inner-2 {
+        text-align: center !important;
+    }
+
+    .inner-2 p {
+        padding: 0;
+    }
+
+    .slide-style-2 {
+        padding: 40px;
+    }
+
+    .slider-btn-1 , .slider-btn-2 {
+        padding: 9px 25px !important;
+    }
+    
+    .pb--120 {
+        padding: 60px 40px;
+    }
+
+    .section-title h2.title {
+        font-size: 36px;
+        margin-bottom: 7px;
+    }
+
+    p {
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
+
+    .footer-left {
+        padding: 60px 30px;
+    }
+
+    .footer-left .inner>span {
+        letter-spacing: 1px;
+        margin-bottom: 9px;
+    }
+
+    .footer-left .inner h2 {
+        font-size: 45px;
+        line-height: 51px;
+    }
+
+    .footer-left .inner .btn-1 {
+        padding: 7px 16px;
+    }
+
+    .footer-right {
+        padding: 60px 30px;
+    }
+
+    .footer-link h4 {
+        margin-bottom: 14px;
+    }
+
+    .copyright-text {
+        position: static;
+        padding-top: 30px;
+    }
+
+    .footer-right p {
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
+}
+
+
+@media only screen and (max-width: 575px) {
+    .mt--mobile--30 {
+        margin-top: 30px;
+    }
+}
